@@ -4,7 +4,7 @@
 
 # gon
 
-[![Release](https://img.shields.io/github/v/release/libnudget/gon?logo=github&label=latest)](https://github.com/libnudget/gon/releases)
+[![Release](https://img.shields.io/github/v/release/coccinella-labs/gon?logo=github&label=latest)](https://github.com/coccinella-labs/gon/releases)
 
 A calm GitHub Actions workflow that gently reviews Dependabot pull requests and provides clear summaries to help you merge confidently.
 
@@ -32,7 +32,7 @@ on:
 
 jobs:
   analyze-dependabot-pr:
-    uses: libnudget/gon/.github/workflows/gon.yml@main
+    uses: coccinella-labs/gon/.github/workflows/gon.yml@main
     permissions:
       pull-requests: write
       contents: read
